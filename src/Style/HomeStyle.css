@@ -1,0 +1,83 @@
+.home {
+    height: 90vh;
+    margin-top: -22px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeContainer {
+    width: auto;
+    margin-left: 30px;
+}
+
+.home .homeContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home .homeContainer p {
+    padding: 0;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .home .homeContainer button {
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+} */
+
+.home .homeContainer button:hover {
+    background-color: #2b2a2a;
+    transition: 50ms ease-in;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeContainer {
+        margin-left: 0;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #1e2429;
+        color: white;
+    }
+
+    .home.homeContainer h1 {
+        font-size: 35px;
+        height: 30px;
+        margin: 15px 0px;
+    }
+
+    .home.homeContainer p {
+        font-size: 20px;
+    }
+
+    /* .homeContainer button {
+        margin-bottom: 20px;
+        padding: 5px
+    }  */
+}
